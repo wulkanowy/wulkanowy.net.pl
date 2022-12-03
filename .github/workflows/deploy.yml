@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: wulkanowy.net.pl
+    environment: oracle-cloud
     steps:
     - uses: actions/checkout@v2
     - uses: alex-ac/github-action-ssh-docker-compose@master
